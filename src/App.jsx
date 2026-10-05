@@ -19,13 +19,13 @@ function App() {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          if (entry.isIntersecting && entry.intersectionRatio >= 0.25) {
+          if (entry.isIntersecting && entry.intersectionRatio >= 0.18) {
             entry.target.classList.add('is-revealed')
             observer.unobserve(entry.target)
           }
         })
       },
-      { rootMargin: '0px 0px -12% 0px', threshold: 0.25 },
+      { rootMargin: '0px 0px -8% 0px', threshold: 0.18 },
     )
 
     elements.forEach((element) => observer.observe(element))
