@@ -22,7 +22,7 @@ function Hero() {
             out.
           </p>
           <a className="hero-cta" href="#work">
-            View selected work <span aria-hidden="true">↘</span>
+            View selected work
           </a>
         </div>
       </div>

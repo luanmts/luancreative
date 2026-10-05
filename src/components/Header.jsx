@@ -41,7 +41,7 @@ function Header() {
             <a href="#about">About</a>
             <a href="#services">Services</a>
           </nav>
-          <a className="header-cta" href="mailto:hello@luancreative.com">
+          <a className="header-cta" href="#contact">
             Let&apos;s Work Together
           </a>
           <button className="menu-trigger" type="button" aria-label="Open menu">
